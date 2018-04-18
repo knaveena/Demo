@@ -23,6 +23,8 @@ public class Woohoo {
 
 		printMax(2, 1, 4.2, 2.4, 4.2, 1, 0, 2, 10.5);
 		printMax(new double[] { 4.6, 1.2, 5.5, 5.5 });
+		
+		System.out.println("Just to trigger a build");
 
 	}
 
@@ -84,5 +86,5 @@ public class Woohoo {
 		System.out.println("The max value is: " + r);
 
 	}
-
+	
 }
